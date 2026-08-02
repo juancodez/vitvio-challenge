@@ -3,3 +3,6 @@ CLAUDE.local.md
 Thumbs.db
 *.tmp
 node_modules/
+
+.vercel
+.env*
