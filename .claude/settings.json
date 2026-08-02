@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(C:\\Users\\tn\\VITVIO\\Bit.Bio\\**)",
+      "Write(C:\\Users\\tn\\VITVIO\\Bit.Bio\\**)",
+      "Edit(C:\\Users\\tn\\VITVIO\\Bit.Bio\\**)"
+    ],
+    "deny": []
+  },
+  "env": {
+    "PROJECT": "Bit.Bio",
+    "TOKENS_FILE": "design-tokens.json"
+  }
+}

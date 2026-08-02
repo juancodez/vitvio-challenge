@@ -1,0 +1,81 @@
+{
+  "$metadata": {
+    "project": "Bit.Bio",
+    "version": "0.1.0",
+    "description": "Single source of truth — color, type, spacing, radius"
+  },
+  "color": {
+    "brand": {
+      "primary":   { "value": "#0F4C81", "comment": "deep science blue" },
+      "secondary": { "value": "#00C9A7", "comment": "biotech teal accent" },
+      "accent":    { "value": "#E8F4FD", "comment": "light blue tint for backgrounds" }
+    },
+    "neutral": {
+      "900": { "value": "#0D1117" },
+      "700": { "value": "#374151" },
+      "500": { "value": "#6B7280" },
+      "300": { "value": "#D1D5DB" },
+      "100": { "value": "#F9FAFB" },
+      "white": { "value": "#FFFFFF" }
+    },
+    "semantic": {
+      "success": { "value": "#22C55E" },
+      "warning": { "value": "#F59E0B" },
+      "error":   { "value": "#EF4444" },
+      "info":    { "value": "#3B82F6" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans":  { "value": "Inter, system-ui, sans-serif" },
+      "mono":  { "value": "JetBrains Mono, monospace" }
+    },
+    "fontSize": {
+      "xs":  { "value": "12px" },
+      "sm":  { "value": "14px" },
+      "md":  { "value": "16px" },
+      "lg":  { "value": "20px" },
+      "xl":  { "value": "24px" },
+      "2xl": { "value": "32px" },
+      "3xl": { "value": "48px" },
+      "4xl": { "value": "64px" }
+    },
+    "fontWeight": {
+      "regular":   { "value": "400" },
+      "medium":    { "value": "500" },
+      "semibold":  { "value": "600" },
+      "bold":      { "value": "700" }
+    },
+    "lineHeight": {
+      "tight":  { "value": "1.2" },
+      "normal": { "value": "1.5" },
+      "loose":  { "value": "1.75" }
+    }
+  },
+  "spacing": {
+    "1":  { "value": "4px" },
+    "2":  { "value": "8px" },
+    "3":  { "value": "12px" },
+    "4":  { "value": "16px" },
+    "5":  { "value": "20px" },
+    "6":  { "value": "24px" },
+    "8":  { "value": "32px" },
+    "10": { "value": "40px" },
+    "12": { "value": "48px" },
+    "16": { "value": "64px" },
+    "20": { "value": "80px" },
+    "24": { "value": "96px" }
+  },
+  "borderRadius": {
+    "sm":   { "value": "4px" },
+    "md":   { "value": "8px" },
+    "lg":   { "value": "12px" },
+    "xl":   { "value": "16px" },
+    "pill": { "value": "9999px" }
+  },
+  "shadow": {
+    "sm":  { "value": "0 1px 3px rgba(0,0,0,0.08)" },
+    "md":  { "value": "0 4px 12px rgba(0,0,0,0.10)" },
+    "lg":  { "value": "0 8px 32px rgba(0,0,0,0.12)" }
+  }
+}

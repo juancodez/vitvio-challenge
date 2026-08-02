@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "figma": {
+      "comment": "Figma MCP — connect via Claude desktop app settings",
+      "fileKey": "",
+      "note": "Paste your Figma file key here when the file is created"
+    },
+    "notion": {
+      "comment": "Notion MCP — for brief and asset tracking",
+      "databaseId": ""
+    },
+    "drive": {
+      "comment": "Google Drive MCP — for reference assets and exports",
+      "folderId": ""
+    }
+  }
+}
