@@ -57,3 +57,113 @@ I plan to use **Claude Code** as my primary tool (fastest for me to narrate reas
 - Prioritize clarity and one strong idea over breadth — no half-finished parallel explorations
 - Keep interfaces legible for a clinical, high-stakes context: calm, low-friction, clear about system confidence/uncertainty where relevant
 - Help me surface a clean three-beat presentation of what got built at the end
+
+---
+
+## VitVio Design System (extracted from reference screenshots)
+
+### Logo
+- **Logomark:** Geometric shape — a 3D-perspective diamond/rhombus with an internal left-pointing arrow/play symbol. Reads as a spatial "frame" or viewport — referencing 3D depth and the OR camera context.
+- **Wordmark:** "VitVio" in Neue Haas Grotesk, medium weight, sentence case (not all-caps). Tight tracking, no embellishment.
+- **Dark version:** White logomark + wordmark on near-black `#000F0A` background — used on website, dashboard header, marketing.
+- **App icon version:** Logomark in dark/black on a green-to-blue gradient (`#0CF19E` → `#4495FA`) inside a rounded square — used as mobile/product icon.
+
+### Color Palette
+| Name | HEX | RGB | Usage |
+|------|-----|-----|-------|
+| Green (primary accent) | `#0CF19E` | 12, 241, 158 | CTAs, active states, highlights, teal accent, icon active bg, mono text |
+| Blue (gradient partner) | `#4495FA` | 68, 149, 250 | Gradient with green on app icon, timeline segments |
+| Black (dark bg) | `#000F0A` | 0, 15, 10 | Primary dark background — near-black with a subtle green tint |
+| Gray (light surface) | `#F7F7F7` | 247, 247, 247 | Main content area background in dashboard (light mode) |
+| White | `#FFFFFF` | 255, 255, 255 | Body text on dark, card backgrounds |
+
+**Status colors seen in dashboard:**
+- On time: green chip
+- Delayed: orange/amber chip
+- Ahead of time: blue chip
+- Out of work / inactive: gray chip
+- Warning/alert: amber `⚠` banner (soft yellow background)
+
+### Typography
+- **Primary — Neue Haas Grotesk:** All UI text — headings, labels, body, navigation, patient data. Clean, geometric grotesque. Used in white on dark and dark on light surfaces.
+- **Secondary — PP Supply Mono:** Monospace, displayed in `#0CF19E` green. Used for: live countdown timers, MRN codes, technical data values, timestamps. Signals "system output / live data" vs human-authored content.
+- **Type scale pattern:** Large bold headings (procedure names, section titles) → medium labels (stage, category) → small regular body (times, details). Tight line-height throughout.
+
+### Icon System
+- **Container:** Rounded square tiles (~10px radius), dark background `#1a1a1a`–`#222`
+- **Style:** Line icons, thin 1.5px stroke, white — search, filter sliders, bell, chat bubble, gear/settings, home, list, checklist, clock
+- **Active state:** Full `#0CF19E` green tile background with dark icon — high contrast, no ambiguity about what's selected
+- **Feel:** Minimal, functional, clinical — no decorative icons
+
+### Dashboard UI Patterns
+
+#### OR Mission Control (main overview)
+- Multi-column kanban layout — one column per operating room (OR 1 → OR 5)
+- Dark left sidebar: icon-only navigation with VitVio logomark at top, green active icon
+- Light main content area (`#F7F7F7`) with white cards per procedure
+- Each card: procedure name (bold), MRN (small gray), start/end times, duration, colored status chip
+- **Yellow/amber card highlight** = attention required (e.g. patient ready, turnover needed)
+- Turnover rows between procedures with duration label
+- Top bar: date, time (CET), global status filter chips (On time / Delayed / Ahead of time / Out of work)
+- Info `ⓘ` icon on cards for drill-down
+
+#### Preparation Dashboard (single-OR detail)
+- Breadcrumb navigation at top
+- **Phase timeline bar** — full-width horizontal bar, color-coded segments:
+  - Green = completed phase
+  - Purple/blue = current phase
+  - Light blue = upcoming named phase ("Event name in 20min", "Skin close")
+  - White/empty = remaining unscheduled time
+  - Current time marker (vertical line with timestamp)
+- Estimated vs actual start/end times side-by-side
+- **Alert banner:** amber background, `⚠ Missing item` label + "Resolved" green badge — inline, not modal
+- Patient details grid: MRN in teal (clickable), Name, DoB, Ward, Duration — countdown in teal bold ("00:59 left")
+- "Next surgery" preview row with orange dot status
+
+#### Live OR View (event timeline + issue tracker)
+- **Left panel (dark):** Vertical event timeline — chronological list of surgical workflow events (Team Brief → Patient in Theatre). Each event: timestamp + label + "Now" / "Earlier" toggle buttons (letting staff confirm or backdate)
+- **Right panel (white):** Live data — countdown timer in PP Supply Mono teal, time estimates, quick-select time chips (05min … 45min) for "Time Left" and "Schedule Turnover" manual inputs
+- **Issue Tracker column (far right):** Simple form — Issue Title, Description, Time Left Estimate, Submit CTA in green — lightweight structured escalation
+- "Debug menu" button top-right (internal/dev tooling)
+
+### Sitemap — Control Dashboard Structure
+```
+Control Dashboard
+├── Patient Preparation
+│   ├── Viewing Patient Data
+│   └── Confirmation of preparation
+├── Surgery Execution
+│   ├── Start of operation
+│   ├── Monitoring tools and stages
+│   └── End of operation
+├── Post-Operative
+│   ├── Record recovery time
+│   └── Performance Analysis
+├── Analytics & Reporting
+│   ├── View performance reports
+│   └── Optimization of the schedule
+└── User Management
+    ├── Assigning roles and access
+    └── Setting up notifications
+```
+Sitemap node style: pill/rounded rectangles on white. Active/primary nodes have a green dot prefix.
+
+### Marketing / Website Patterns
+- Dark backgrounds with OR photography and 3D spatial renders (purple-tinted for the Vetro 3D engine view)
+- Headline style: large, white, sentence case, Neue Haas Grotesk — e.g. "Every focal point lands on one calm screen."
+- Feature presentation: 2-column comparison (competitors vs Vetro) with bullet-point differentiators
+- Role targeting: Surgeons / Nurses / OR Managers — photo grid with role labels
+- Op-note UI: dark panel, teal "Sync'd with EHR" button, timestamped event log in clean mono
+
+### Social / Brand Templates
+- Two modes: **light** (white bg, green accent frame on photo) and **dark** (near-black bg, green corner/border accents)
+- Wordmark always present, logomark used as small avatar
+- No gradients in social — flat green `#0CF19E` used as accent color only
+
+### Design Language Summary (use this when building the prototype)
+- **Dark-first:** Default UI is dark (`#000F0A` base) with light content panels where data density is high
+- **Green = live / active / confirmed.** Anything the system is doing right now or confirming gets `#0CF19E`.
+- **Mono = data.** Whenever showing a live number (timer, code, count), use PP Supply Mono in green.
+- **No modal interruptions** — alerts are inline banners, not blocking overlays. Clinicians can't stop what they're doing.
+- **Status is never ambiguous** — every card, row, and phase has an explicit labeled state. Never rely on color alone.
+- **Calm, not cold** — typography is clean but not sterile; the UI is confident, not clinical-minimalist for its own sake.
