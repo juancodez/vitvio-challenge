@@ -1,0 +1,53 @@
+# Intro call with VitVio
+
+Fri, 31 Jul 26
+
+### About VitVio
+
+- AI-powered surgical reporting platform using 3D spatial context engine and OR cameras
+- Reads surgeon actions in real time to auto-generate reports distributed across clinical teams
+- Part-time role (~20 hrs/week), with potential to grow into full-time
+
+### Design Process: Claro (End-to-End Project)
+
+- Tax declaration platform for Spanish-speaking freelancers in Germany
+  - Pain point identified from personal network: language barrier with German tax forms
+  - Existing tools only in English, no Spanish-language alternative
+- Research approach:
+  - Macro: Perplexity + Google to size the market (Spanish-speaking freelancers in Germany)
+  - Micro: 1 survey + 5 user interviews
+  - Competitive benchmark: fed competitor tools into AI to inform product direction
+- Shipped full product (front end + back end), not just a Figma prototype
+
+### AI Workflow
+
+- User interviews: Granola for transcription, then Claude for insight extraction
+- Documentation: Google Notebook + Notion (connected to Claude)
+- Prototyping: Claude Code as primary tool, with MCP/live connections as needed
+  - Output can be HTML file, Figma, Lovable, or Figma Make depending on context
+- Design-to-code philosophy: build components from Claude to Figma (not Figma to code)
+  - Reduces handoff friction; engineer already has the code
+  - Consistency assured by having design specs (padding, typography) defined upfront
+
+### Collaboration and Disagreement Style
+
+- Adapts vocabulary by audience: frames design decisions in business terms (retention, churn) not aesthetics
+- Proactively shares ideas early to get feedback before investing effort
+- On disagreement: only pushes back when there is no evidence or rationale behind a decision
+  - Accepts direction he disagrees with if it is evidence-backed and explained
+  - Example: deprioritized a feature he believed in after senior designer showed user feedback contradicting it
+
+### Logistics and Next Steps
+
+- Role is part-time (~20 hrs/week), open to full-time over time
+- Occasional travel to hospitals in Europe (UK or EU): fine with 2-3 days, harder with a full week (parent of two young children, ages 2 and 5)
+- Phase 2 booked for Tuesday at 5:30 PM: vibe coding / whiteboard challenge with a real use case
+  - Alex to send follow-up email with booking link and challenge details in advance
+
+### Next Steps
+
+- **Check Alex's follow-up email for phase 2 details and booking link**
+
+---
+
+Chat with meeting transcript: https://notes.granola.ai/t/cf9f639a-9dcd-4a82-8c79-332ff507adc8-00demib2

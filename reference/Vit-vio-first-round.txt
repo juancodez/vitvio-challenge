@@ -1,0 +1,141 @@
+Meeting Title: Intro call with VitVio
+Date: Jul 31
+Meeting participants: Juan GV
+
+Transcript:
+Me: Bueno, No sé. Me cobró. Okay. No. Está bien esto. No, yo sé que está mal. Alright. Ahí está. Sí. 
+Them: Hello. Hello. 
+Me: Oi, oi. 
+Them: How are you doing? 
+Me: How? Hi. Hi, Alex. How are you? Thanks. I'm doing fine. And you? 
+Them: Doing great. Doing great. Whereabouts are you based? 
+Me: I am based in Germany, in Berlin. 
+Them: Today? Ah, nice. 
+Me: And you? 
+Them: Nice. Very cool. I'm in Warsaw in Poland, so not that far away. Not that far away. It's very hot today. It's, like, 34. It's crazy. 
+Me: Yeah. Yeah. 
+Them: I'd probably say I'm in Berlin, could imagine, or or so like. 
+Me: Yeah. Yeah. 
+Them: Cool. Cool. Alright. 
+Me: Yeah. For sure. Yep. 
+Them: Alright. Let's let's jump into it. I'm Alex cofounder and chief product officer of Vitvio. Great to meet you. Today, since we only have fifteen minutes, we'll basically move, fairly fast across three things. Your design work, how you use AI, and how you work with the team. Since we only have fifteen minutes, short, sharp answers are perfectly fine. We're gonna have more time to deep dive, at the next stage of the interview. Way more time to deep dive. Okay. So, first question is, if you were to tell your friends or family about applying to us, what would you tell them that it would be of us as a company? 
+Me: I mean, for me, Vitvio is a pretty personal company because my father is a surgeon. So when I saw the mission of Pitvio that they work with three d special context engine and with the help with AI, with the cameras on the top to actually read the context and the action from the surgeons and they make the reports actually I was totally impressed. And even I talked with my father about that, he's in Argentina. He's based in Argentina. I'm from Argentina. And he say, wow. That that tool is amazing. That product is amazing. It means a lot of time that you can save. And, actually, I confirmed that because I saw your metrics on on the website. So, yeah, if I want to talk about video, it will be it's a tool that use AI and three d special context engine to make reports. And those reports are actually these distributed in the whole 
+Them: Also 
+Me: in the whole clinical. So all the teams 
+Them: Awesome. Awesome. Great. 
+Me: knows what is happening in yeah. Actually, it's great. It's a great tour, and 
+Them: Awesome. Very good. Alright. 
+Me: great mission. Amazing. 
+Them: Awesome. Very good. Alright. Great. So now let's talk about you. Please pick any of the latest projects that you worked on, ideally, that you designed end to end. And I'd love to understand on any of that that you pick, what was the core user problem and how did you know it was a big problem to solve? 
+Me: I'm gonna take the last product that I bid myself. That's special product because it was the first time that I did something end to end. So it didn't stay just in Figma. It's something that I ship, and that's claro a platform to help freelancers Spanish speakers in Germany to fulfill the declaration taxes. 
+Them: Mhmm. 
+Me: And, actually, the problem was pretty easy to identify because I have a lot of friends that are freelancers here. From Spain and Argentina, and they're having a really bad time by fulfilling the tax declaration here in Germany of the language barrier. So identify that pain point. And, actually, when I made the benchmark analyze, I saw that it were already tools that exist, but they are only in English. Ehm, yeah, then I 
+Them: El 
+Me: took in this case, I 
+Them: And and and and and what what research methods did you use throughout the project? That's also 
+Me: Yeah. For sure. The first for sure, I make a macro research with perplexity using AI. 
+Them: interesting. Mhmm. 
+Me: Actually, as well as Google Chrome to identify that was a problem, how many Spanish speakers, freelancers live in Germany and so on. And then I get to the micro So I make, some one survey, actually, and then I make, like, five interviews. That was, enough to have the better insights. And then with and then with that, with the benchmark analyze, I I took the the tools from the from the competition, and I I feed the AI with the of this competition, and then I build my my my platform. And I I work from the front end, back end, all that the product is shipped. 
+Them: So that's that's that's great. And let's let's pause here for a sec. 
+Me: And I couldn't 
+Them: Okay? Let's stop on user interviews for a sec. 
+Me: yep. 
+Them: Any AI tools in terms of user interviews and helping you 
+Me: Actually, I 
+Them: process insights, etcetera, 
+Me: Actually, I I have a workflow for that. I for sure, I identify what are the questions that I need to have, the insights that I need and confirm my hypothesis and the pain points to actually to know that that problem exist. Then when I have a when I make an interview, for example, with with a user or potential user, I use Granola. That's a tool to to transcription. 
+Them: Yep. 
+Me: And then from this, I bring into Claude then Claude had the make the other insights. And then from documentation, I used tools. I use this documentation, this insights from Claude and for me. Because you need to read and control what Claude gives us insights and conclusions. 
+Them: Course. Mhmm. 
+Me: I use two tools. I use Google Notebook. And then I have all the documentation there. And then if it's needed as well, you can connect Claude with Notion, and you can make documentation in Notion. So, actually, then you have, like, three places that are saved. You have three time to documentation in Notion, Google Notebook, and Claude. But it depends actually always context, right, of the company that you work and 
+Them: Great. Great. 
+Me: but, yeah, I always, try to AI for me is to augment the workflow augmented and going faster and to get to the to the result that we want in the efficient way. 
+Them: Makes sense. Makes sense. Okay. Great. 
+Me: Yeah. 
+Them: So research. Great. Now let's go to prototyping. So let's say you have an idea or some requirements already. How do you get from that to, like, a fully functional prototype? Not necessarily, yet designed ready to be hand off to engineering or to be implemented yourself. But how do you go from, like, let's say, you know, requirements idea to fully functional prototype 
+Me: Yeah. Sure. Actually, 
+Them: today. What kind of tools do you use? How do you go about this? 
+Me: if we need a prototype, like you say, we need a prototype for two days, and this is the topic, this is the feature, I I use a lot of Cloud Code. And depending on what we are working for, I use a lot of resources because, Cloud Code, you can connect it through MCP or say live And for example, I connect it with to resolve a certain problem or for a certain workflow. And then it depends because there is companies that there are satisfied with a prototype as HTML file, or you can use Figma, and you can use Figma make or Lovable. But I in my case, I use always, or pretty off Claude code. And depending on the situation of what is the feature that we want to build, I search the the resources that I need to like, for example, mobile library or Reddit or depends. 
+Them: Mhmm. 
+Me: And then when I have this context that I build to with AI, I build it, and then I I test it. It 
+Them: Hello? Okay. Okay. 
+Me: For sure, first validate first validate if that works, and then 
+Them: So let's let's let's let's pause here. Let's pause here. This is great. One follow-up. Okay. You have the prototype, HTMLs fine, for instance. Right? Okay. Then we wanna get from that to, like, let's say two scenarios. One is you can implement it yourself. Right? Second scenario is that you wanna hand it off 
+Me: Yeah. 
+Them: to an engineering team to implement because it's a very complicated system feature or whatever. How do you make sure that it's consistent with your design system? How do you manage that? 
+Me: Okay. First of all, I believe that it doesn't matter which team you work and which company. There are two key for successes, documentation and communication. So, if the engineer says, look. This feature is gonna work with, this technology. Like always, React Native HTML, CSS, Swift, Kotlin, I don't know. Depends always on the product. I'm gonna take that on consideration and to build and ask if that feature is feasible. Right? Because it's always, you need to I need to measure the impact versus the effort in the engineering contest. So that will be my case. And in my case, for example, when I work with design system, I work in with Cloud Code, with Sailai, 
+Them: Mhmm. 
+Me: because I try to when there is a design system that is already built, to avoid the handoff the most as possible I work the the the I build the component from Claude to Figma and not from Figma to code because Claude code make the code and then you you can reduce this handoff. But handoff is not the the a good term for this. It will be hands. Call code implementation would be the the best term term because 
+Them: Mhmm. 
+Me: normally, a responsible designer doesn't take the hands off. He always is communicating and saying and interacting how you can avoid this this, this problem of consistency. Right? So that would be my that would be my my my approach to avoid this problem of like, make the this the components from code Figma, for example, and then, like, already the engineer has the code because I I bid it from from from CloudCall. For sure, you you need to have already the the design because if I need to say, okay. The component is with this padding or this button with this padding, with this text, when we have already that, we can we can always, assure the consistency. 
+Them: Nice. Okay. Okay. That's great on the design side. I have two questions about how you work with the team. So, one, tell me about a time where you worked on a project with a team or so. And you did something that you didn't have to do, but you felt it was important that it mattered, but it was beyond the role of a designer. 
+Me: Okay. I mean, nowadays, the context of not designer, I guess, for everybody, is good for a question of empathy and to grow a company that everybody knows a little bit from each role. Like, if I want to if I if I design something, I would not say to a product manager or even to you, like, you are the cofounder. Yeah, this button is nice because it helps with the brand identity. I will say to you, look, this button is nice because it's gonna make the grow the retention rate we're gonna we're gonna improve the churn rate. And I'm gonna adapt my vocabulary and and to prove that what I do is not for because I think that is good. It's I think that is good and good for the company, for the growth of company. So that would be my my my approach from And even in the case that is not necessary, before I do something, I will say, hey. I have this idea from with a a engineer, you, or designer. What do you think about this Is that craziness? It's nice? It's not nice? And I will go like this. No? I think that when you are sincere and you say what you what's the problem? No? The the the the worst thing that can happen is say, no. It's not a good idea. That that pass, and that's it. It's like 
+Them: Okay. And the very last question is, tell me about a situation from any of the last projects that you worked on. When you had to constructively disagree with someone on a major decision on or direction or some situation that happened. I'd love to understand that. But, like, a specific situation that you can recall. 
+Me: Yeah. Sure. Like, for example, I was working on a feature that I found that it was necessary but then the the senior product designer and the lead he told me, like, look, this is nice. But you need to take that off because the the work of this product, the core flow, is another feature. And it's not this feature. This feature is nice, but it's not solving actually the the the problem of the user. So 
+Them: Mhmm. 
+Me: I take it really well, and I work really interactive because this this observation was not a speculation or an idea. It was something that it was with evidence on the user's feedback, on the interviews, and say, okay. You're right. Okay. Gonna speed up, and I'm gonna work on the feature that really matters that solves the problem of the user. 
+Them: Mhmm. 
+Me: So, yeah, 
+Them: Yeah. So 
+Me: you do you need more details on or it's okay? 
+Them: Yeah. So that's one so that's but I would say that's a situation where you kinda agreed with 
+Me: Yeah. 
+Them: someone in the end, right? Can you tell me about a situation where you disagreed with someone and like it's not necessarily about where whether you are right or wrong, 
+Me: Yeah. 
+Them: but, yeah, I would love to understand that. 
+Me: For me no. For me, disagree is, like, I disagree. The only point that when I disagree is when they is no foundation, there is no explanation that is just like, I I like it like that because I think this like that, or my belly says that, or my gut says that. No. We need evidence. So that's the only moment when I'm gonna say, no, I'm not agree with you. And or I'm I can say, like, okay. I'm not agree. But if your needs, for example, we are working in in a company where the customers need that feature. Is another customer from this company. He needs that feature, but it's not aligned with the with the features that we are making. But this customer, he's putting a lot he's he's investing a lot That's need I need to prioritize this feature because for example, the product management or or you, in this case, you're gonna came and Juan, we need to progress this feature because this customer he's investing a lot. And then I'm gonna say, okay. I'm not agree, but I'm gonna do it because it's an evidence. So that's how I go. So maybe I'm not gonna be agreed with something but I wanna respect when it's with evidence and and explain. Like, I guess, when you explain 
+Them: Awesome. That's 
+Me: there is no problem. I 
+Them: Awesome. That's that's that's great. Alright. And, last thing is we discussed I mean, we mentioned in the job ad, but, part time role for now, but it might there's an opportunity that it could turn into a full time role. Would you be open to that as well? 
+Me: Yeah. 
+Them: Over time? 
+Me: Because now it's 
+Them: I just wanted to make that clear because it's 
+Me: a freelancer, you say. Or 
+Them: it's a part time, you know, it's a part time role for for a flash there indeed. About, you know, twenty hours a week more or less. And yeah. COVID. Okay. And with the with the travel to hospitals, would you be okay with that as well? 
+Me: yes. Where is the travel? 
+Them: Mostly Europe. Mean, UK or European Union. Would only be the the direction. 
+Me: And, yeah, how many how many days will be or how 
+Them: Yep. It's it's 
+Me: because we it's hard to know. 
+Them: it's hard to say, but but but, basically, if it happens, it's only Mac for a couple of days. 
+Me: Yeah. 
+Them: Like, and it does not happen often. But, like, 
+Me: Okay. 
+Them: basically, just for you to, you know, in some situations, to get to know the users from 
+Me: Yeah. Yeah. 
+Them: from, like, direct experience, right, and see how the product works, and make sure that, you know, we listen to the feedback and reiterate. Right? And so that's more of an opportunity than a drawback, really, because 
+Me: No. For sure. 
+Them: it's such a space that, you know, 
+Me: Oh, just to know. No. Because if you say there is a couple of day, like, two days, 
+Them: you know, really unique 
+Me: it's okay. But if you say there is one week, then I will say, yeah, it's more difficult. I'm I'm a parent of two young childs. 
+Them: Sure. 
+Me: And and five. So that's that's the only thing. But when you say two, three days, 
+Them: I can imagine. 
+Me: guess, it's it's feasible. 
+Them: Cool. Cool. Cool. Okay. Just wanted to make that, you know, super quick. 
+Me: That's why. So 
+Them: Awesome. Awesome. Thank you so much. I'll send you a a follow-up link to book something for next week. For for phase two. Do you have time on Tuesday, maybe May I you're Berlin. Great. So at the same time. So 05:30? PM, Tuesday, is that doable? Awesome. Awesome. That's great. 
+Me: Yeah. 
+Them: Then I'm gonna I'm gonna book it in directly. Great. 
+Me: Yeah. 
+Them: Awesome. Alright. Looking forward to the next steps. 
+Me: Yeah. The next step is already the whiteboard challenge. Right? 
+Them: Correct. Correct. Correct. And then and then we're gonna after that, we're gonna decide on whether it's an offer or not. Typically, our to be fair, typically, our, our process is more complicated, but it's a part time role 
+Me: Yeah. So it's pretty 
+Them: we wanna be reasonable. 
+Me: nice. Yeah. 
+Them: We do wanna and and we're gonna be working on in the in the whiteboard challenge is a vibe coding challenge. Right? But it's, it's like a real use case. You know? So it's 
+Me: So I would know 
+Them: we'll give you the details at the very 
+Me: there. 
+Them: beginning. Yeah. Absolutely. But I'm gonna in the email I'm gonna send you, you're gonna have 
+Me: Ah, cool. Cool. Perfect. Then I can prepare some. Okay. Nice. 
+Them: some details already. Cool. 
+Me: Nice. 
+Them: Alright. 
+Me: Okay. 
+Them: Great meeting you. 
+Me: Yeah. Me too. Thank you. Yeah. Bye. 
+Them: Next week. 

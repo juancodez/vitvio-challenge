@@ -1,0 +1,22 @@
+He asked **about 11 substantive questions**, plus a few logistics/scheduling checks.
+
+## Main questions
+1. **What would you tell friends/family about VitVio as a company?**
+2. **Pick a recent end-to-end project** and explain:
+   - what the **core user problem** was
+   - how you knew it was a **big problem to solve**
+3. **What research methods did you use** throughout the project?
+4. **What AI tools do you use for user interviews** and for processing insights?
+5. **How do you go from requirements/idea to a fully functional prototype?**
+6. After the prototype, **how do you ensure consistency with the design system**, especially if handing off to engineering?
+7. **Tell me about a time you did something beyond the role of a designer** on a team project.
+8. **Tell me about a situation where you had to constructively disagree** with someone on a major decision/direction.
+9. Follow-up: **Can you give a real disagreement example** rather than a case where you ended up agreeing?
+10. **Would you be open to the part-time role turning into full-time over time?**
+11. **Would you be okay with travel to hospitals** in Europe/UK?
+
+## Logistics / quick checks
+- **Do you need more details, or is it okay?**
+- **Do you have time on Tuesday at 5:30 PM Berlin time?**
+
+If you want, I can also turn this into a **clean interview question list** you can rehearse from.
